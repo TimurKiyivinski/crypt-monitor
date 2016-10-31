@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "blessed": "^0.1.81",
-    "blessed-contrib": "^4.5.5"
+    "blessed-contrib": "^4.5.5",
+    "request": "^2.76.0"
   }
 }
