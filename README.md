@@ -96,6 +96,27 @@ BitX latest ticker data
 }
 ```
 
+## BittrexComponent
+Bittrex latest ticker data
+```
+{
+    "points": 6,
+    "style": ...,
+    "box": ...,
+    "watch": "Ask", // Value to watch (Bid, Ask, Last)
+    "tickers": [
+        {
+            "name": "btc-xzc", // Ticker code
+            "interval": 10, // Refresh interval
+            "style": {
+                "line": [115, 244, 214]
+            }
+        },
+        ...
+    ]
+}
+```
+
 # todo
 * Poloniex exchange rate
 * Suprnova earnings graph
