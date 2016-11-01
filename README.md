@@ -75,9 +75,29 @@ Retrieves total hash rate for miners
 }
 ```
 
+## BitXComponent
+BitX latest ticker data
+```
+{
+    "points": 6,
+    "style": ...,
+    "box": ...,
+    "watch": "last_trade", // Value to watch (bid, ask, last_trade, etc)
+    "tickers": [
+        {
+            "name": "XBTMYR", // Ticker code
+            "interval": 10, // Refresh interval
+            "style": {
+                "line": [115, 244, 214]
+            }
+        },
+        ...
+    ]
+}
+```
+
 # todo
 * Poloniex exchange rate
-* BitX exchange rate
 * Suprnova earnings graph
 
 # disclaimer
