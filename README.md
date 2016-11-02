@@ -131,6 +131,17 @@ Poloniex price data
 }
 ```
 
+## CoinMarketCap
+CoinMarketCap price data
+```
+{
+    "table": ..., // blessed-contrib table settings
+    "interval": 10, // Refresh interval
+    "filter": ["BTC", "XZC", "ZEC", "DASH", "ETH", "ETC", "XMR", "XEM", "SC"], // Ticker codes
+    "watch": ["price_usd", "price_btc", "percent_change_1h"] // Columns to display
+}
+```
+
 # todo
 * Suprnova earnings graph
 * Override graphs
