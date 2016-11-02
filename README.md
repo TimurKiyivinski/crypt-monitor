@@ -117,9 +117,20 @@ Bittrex latest ticker data
 }
 ```
 
+## PoloniexComponent
+Poloniex price data
+```
+{
+    "table": ..., // blessed-contrib table settings
+    "interval": 10, // Refresh interval
+    "filter": ["BTC_ZEC", "BTC_ETH", "BTC_ETC", "BTC_XMR", "BTC_XEM", "BTC_SC"], // Ticker codes
+    "watch": ["lowestAsk", "percentChange", "high24hr", "low24hr"] // Columns to display
+}
+```
+
 # todo
-* Poloniex exchange rate
 * Suprnova earnings graph
+* Override graphs
 
 # disclaimer
 All rights reserved to named companies.
