@@ -4,6 +4,7 @@
   "description": "A system and cryptocurrency monitor",
   "main": "monitor.js",
   "scripts": {
+    "start": "node monitor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Timur Kiyivinski",
@@ -12,5 +13,19 @@
     "blessed": "^0.1.81",
     "blessed-contrib": "^4.5.5",
     "request": "^2.76.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimurKiyivinski/crypt-monitor.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "cryptocurrency",
+    "monitor"
+  ],
+  "bugs": {
+    "url": "https://github.com/TimurKiyivinski/crypt-monitor/issues"
+  },
+  "homepage": "https://github.com/TimurKiyivinski/crypt-monitor#readme"
 }

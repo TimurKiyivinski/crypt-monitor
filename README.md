@@ -4,7 +4,10 @@ A simply configurable cryptocurrency trade & miner monitor application.
 
 # usage
 Copy `env.json.example` to `env.json` and configure as necessary. Each JSON key
-represents a component.
+represents a component. Run `npm install` to install required libraries. Usage:
+```
+npm start
+```
 
 # components
 Components are based on [blessed](https://github.com/chjj/blessed/) and [blessed-contrib](https://github.com/yaronn/blessed-contrib/).
