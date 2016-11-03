@@ -19,6 +19,11 @@ const env = require('./env.js')
 
   const components = Object.keys(env).map(key => {
     const component = require('./lib/components')[key](env[key])
+    component.draggable = true
+    component.key('h', (ch, key) => component.width -= 1)
+    component.key('j', (ch, key) => component.height -= 1)
+    component.key('k', (ch, key) => component.height += 1)
+    component.key('l', (ch, key) => component.width += 1)
     screen.append(component)
     return component
   })
