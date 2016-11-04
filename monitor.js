@@ -1,7 +1,5 @@
 // Libraries
-const exec = require('child_process').exec
 const blessed = require('blessed')
-const contrib = require('blessed-contrib')
 const shared = require('./lib/components').shared
 
 // Environment variables

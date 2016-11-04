@@ -5,7 +5,7 @@
   "main": "monitor.js",
   "scripts": {
     "start": "node monitor.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "author": "Timur Kiyivinski",
   "license": "MIT",
@@ -14,7 +14,9 @@
     "blessed-contrib": "^4.5.5",
     "request": "^2.76.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^8.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TimurKiyivinski/crypt-monitor.git"

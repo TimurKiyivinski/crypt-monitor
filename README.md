@@ -1,6 +1,7 @@
 # crypt-monitor (Work in progress..)
 ![screenshot](screenshot.png)
 A simply configurable cryptocurrency trade & miner monitor application.
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 # usage
 Copy `env.json.example` to `env.json` and configure as necessary. Each JSON key
