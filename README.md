@@ -10,6 +10,17 @@ represents a component. Run `npm install` to install required libraries. Usage:
 npm start
 ```
 
+# usage via Docker
+Build the container:
+```
+docker build -t crypt-monitor .
+```
+
+Run the container:
+```
+docker run -it --privileged -v $(pwd)/env.json:/app/env.json crypt-monitor
+```
+
 # components
 Components are based on [blessed](https://github.com/chjj/blessed/) and [blessed-contrib](https://github.com/yaronn/blessed-contrib/).
 All components have `style` and `box` keys which refer back to the containers of these components.
